@@ -1,0 +1,18 @@
+linear_trajectory_action_client:
+  ros__parameters:
+    # Durata totale della traiettoria in secondi
+    traj_duration: 2.0
+    
+    # Durata della fase di accelerazione/decelerazione in secondi
+    acc_duration: 0.5
+    
+    # Posizione finale desiderata per l'end-effector
+    end_position_x: 0.5
+    end_position_y: -0.3
+    end_position_z: 1.2
+    
+    # Tipo di traiettoria: "linear" o "circular"
+    traj_type: "linear"
+    
+    # Tipo di profilo di velocità: "trapezoidal" o "cubic"
+    s_type: "trapezoidal"

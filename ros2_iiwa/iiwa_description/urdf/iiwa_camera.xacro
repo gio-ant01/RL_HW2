@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <!-- Macro per aggiungere la camera all'end-effector -->
+  <xacro:macro name="iiwa_camera_sensor" params="prefix">
+    
+    <!-- Link della camera -->
+    <link name="${prefix}camera_link">
+      <visual>
+        <geometry>
+          <box size="0.015 0.04 0.04"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <material name="camera_red">
+          <color rgba="1.0 0.0 0.0 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="0.015 0.04 0.04"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+      </collision>
+      <inertial>
+        <mass value="0.01"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.00001" ixy="0.0" ixz="0.0" 
+                 iyy="0.00001" iyz="0.0" 
+                 izz="0.00001"/>
+      </inertial>
+    </link>
+    
+    <!-- Joint che connette la camera all'end-effector link_7 -->
+    <joint name="${prefix}camera_joint" type="fixed">
+      <parent link="${prefix}link_7"/>
+      <child link="${prefix}camera_link"/>
+      <!-- Posiziona la camera davanti all'end-effector, guardando verso avanti/basso -->
+      <!-- xyz: x=avanti, y=sinistra, z=sopra rispetto al link_7 -->
+      <!-- rpy: orienta la camera per guardare verso il basso e avanti -->
+      <origin xyz="0.0 0.0 0.15" rpy="0 ${-pi/2} ${pi}"/>
+    </joint>
+    
+    <!-- Link ottico della camera (frame standard ROS per computer vision) -->
+    <link name="${prefix}camera_optical_link"/>
+    
+    <joint name="${prefix}camera_optical_joint" type="fixed">
+      <parent link="${prefix}camera_link"/>
+      <child link="${prefix}camera_optical_link"/>
+      <!-- Rotazione per allineare al frame ottico standard: x=right, y=down, z=forward -->
+      <origin xyz="0 0 0" rpy="${pi/2} 0 ${-pi/2}"/>
+    </joint>
+    
+    <!-- Plugin Gazebo per il sistema dei sensori -->
+    <gazebo>
+      <plugin filename="gz-sim-sensors-system"
+              name="gz::sim::systems::Sensors">
+        <render_engine>ogre2</render_engine>
+      </plugin>
+    </gazebo>
+    
+    <!-- Configurazione del sensore camera in Gazebo -->
+    <gazebo reference="${prefix}camera_link">
+      <sensor name="iiwa_camera" type="camera">
+        <pose>0 0 0 0 0 0</pose>
+        <camera>
+          <horizontal_fov>1.396</horizontal_fov>  <!-- ~80 gradi per vedere meglio -->
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.02</near>
+            <far>10.0</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.007</stddev>
+          </noise>
+        </camera>
+        <always_on>1</always_on>
+        <update_rate>30</update_rate>
+        <visualize>true</visualize>
+        <topic>iiwa/camera</topic>
+      </sensor>
+    </gazebo>
+    
+    <!-- Materiale per la visualizzazione in Gazebo -->
+    <gazebo reference="${prefix}camera_link">
+      <material>Gazebo/DarkGrey</material>
+    </gazebo>
+    
+  </xacro:macro>
+  
+</robot>

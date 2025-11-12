@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (ros2_kdl_package) JobQueued: {'identifier': 'ros2_kdl_package', 'dependencies': OrderedDict()}
+[0.000491] (ros2_kdl_package) JobStarted: {'identifier': 'ros2_kdl_package'}
+[0.006300] (ros2_kdl_package) JobProgress: {'identifier': 'ros2_kdl_package', 'progress': 'cmake'}
+[0.006653] (ros2_kdl_package) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/ros2_kdl_package', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/ros2_kdl_package/install/ros2_kdl_package'], 'cwd': '/home/user/ros2_ws/src/ros2_kdl_package/build/ros2_kdl_package', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/src/ros2_iiwa/iiwa_description/gazebo/models'), ('HOSTNAME', 'mc-Dell-G16-7630'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/src/install/impedance_controller/lib:/home/user/ros2_ws/src/install/external_torque_sensor_broadcaster/lib:/home/user/ros2_ws/install/impedance_controller/lib:/home/user/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_AUDIO', '0'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/src/install:/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/src/install/ros2_kdl_package:/home/user/ros2_ws/src/install/impedance_controller:/home/user/ros2_ws/src/install/iiwa_bringup:/home/user/ros2_ws/src/install/iiwa_description:/home/user/ros2_ws/src/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/ros2_kdl_package:/home/user/ros2_ws/install/iiwa_bringup:/home/user/ros2_ws/install/impedance_controller:/home/user/ros2_ws/install/iiwa_description:/home/user/ros2_ws/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/armando_gazebo:/home/user/ros2_ws/install/armando_description:/home/user/ros2_ws/install/joint_state_publisher_gui:/home/user/ros2_ws/install/joint_state_publisher:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GAZEBO_RESOURCE_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('PWD', '/home/user/ros2_ws/src/ros2_kdl_package/build/ros2_kdl_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/user/ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/src/install/ros2_kdl_package:/home/user/ros2_ws/src/install/impedance_controller:/home/user/ros2_ws/src/install/iiwa_bringup:/home/user/ros2_ws/src/install/iiwa_description:/home/user/ros2_ws/src/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/ros2_kdl_package:/home/user/ros2_ws/install/iiwa_bringup:/home/user/ros2_ws/install/impedance_controller:/home/user/ros2_ws/install/iiwa_description:/home/user/ros2_ws/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/armando_gazebo:/home/user/ros2_ws/install/armando_description:/home/user/ros2_ws/install/joint_state_publisher_gui:/home/user/ros2_ws/install/joint_state_publisher:/opt/ros/humble')]), 'shell': False}
+[0.071179] (ros2_kdl_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100148] (-) TimerEvent: {}
+[0.172677] (ros2_kdl_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.177129] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200318] (-) TimerEvent: {}
+[0.289695] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.295881] (ros2_kdl_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.296300] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.296662] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.299897] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300385] (-) TimerEvent: {}
+[0.379644] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.383248] (ros2_kdl_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.383501] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.383565] (ros2_kdl_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.386014] (ros2_kdl_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400517] (-) TimerEvent: {}
+[0.485713] (ros2_kdl_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500681] (-) TimerEvent: {}
+[0.552799] (ros2_kdl_package) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.592560] (ros2_kdl_package) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[0.596533] (ros2_kdl_package) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.597163] (ros2_kdl_package) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.597223] (ros2_kdl_package) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.599316] (ros2_kdl_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.600835] (-) TimerEvent: {}
+[0.618856] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.623278] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.629485] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.637873] (ros2_kdl_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.646472] (ros2_kdl_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.683724] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700977] (-) TimerEvent: {}
+[0.711687] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.714225] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.732508] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.790858] (ros2_kdl_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.793070] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.801213] (-) TimerEvent: {}
+[0.803796] (ros2_kdl_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.806854] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.813018] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.824640] (ros2_kdl_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.838177] (ros2_kdl_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.895033] (ros2_kdl_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.895289] (ros2_kdl_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901312] (-) TimerEvent: {}
+[0.993889] (ros2_kdl_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.994736] (ros2_kdl_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001432] (-) TimerEvent: {}
+[1.034547] (ros2_kdl_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.083668] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.083855] (ros2_kdl_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/user/ros2_ws/src/ros2_kdl_package/include>\n'}
+[1.083912] (ros2_kdl_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.084351] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.085370] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.086085] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.091635] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.091790] (ros2_kdl_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.092608] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.093374] (ros2_kdl_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.100314] (ros2_kdl_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.101658] (-) TimerEvent: {}
+[1.103125] (ros2_kdl_package) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/ros2_kdl_package/build/ros2_kdl_package\n'}
+[1.109711] (ros2_kdl_package) CommandEnded: {'returncode': 0}
+[1.110021] (ros2_kdl_package) JobProgress: {'identifier': 'ros2_kdl_package', 'progress': 'build'}
+[1.110642] (ros2_kdl_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/ros2_kdl_package/build/ros2_kdl_package', '--', '-j32', '-l32'], 'cwd': '/home/user/ros2_ws/src/ros2_kdl_package/build/ros2_kdl_package', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/src/ros2_iiwa/iiwa_description/gazebo/models'), ('HOSTNAME', 'mc-Dell-G16-7630'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/src/install/impedance_controller/lib:/home/user/ros2_ws/src/install/external_torque_sensor_broadcaster/lib:/home/user/ros2_ws/install/impedance_controller/lib:/home/user/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_AUDIO', '0'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/src/install:/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/src/install/ros2_kdl_package:/home/user/ros2_ws/src/install/impedance_controller:/home/user/ros2_ws/src/install/iiwa_bringup:/home/user/ros2_ws/src/install/iiwa_description:/home/user/ros2_ws/src/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/ros2_kdl_package:/home/user/ros2_ws/install/iiwa_bringup:/home/user/ros2_ws/install/impedance_controller:/home/user/ros2_ws/install/iiwa_description:/home/user/ros2_ws/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/armando_gazebo:/home/user/ros2_ws/install/armando_description:/home/user/ros2_ws/install/joint_state_publisher_gui:/home/user/ros2_ws/install/joint_state_publisher:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GAZEBO_RESOURCE_PATH', '/home/user/ros2_ws/src/install/iiwa_description/share/iiwa_description/meshes:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('PWD', '/home/user/ros2_ws/src/ros2_kdl_package/build/ros2_kdl_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/user/ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/src/install/ros2_kdl_package:/home/user/ros2_ws/src/install/impedance_controller:/home/user/ros2_ws/src/install/iiwa_bringup:/home/user/ros2_ws/src/install/iiwa_description:/home/user/ros2_ws/src/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/ros2_kdl_package:/home/user/ros2_ws/install/iiwa_bringup:/home/user/ros2_ws/install/impedance_controller:/home/user/ros2_ws/install/iiwa_description:/home/user/ros2_ws/install/external_torque_sensor_broadcaster:/home/user/ros2_ws/install/armando_gazebo:/home/user/ros2_ws/install/armando_description:/home/user/ros2_ws/install/joint_state_publisher_gui:/home/user/ros2_ws/install/joint_state_publisher:/opt/ros/humble')]), 'shell': False}
+[1.152563] (ros2_kdl_package) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o\x1b[0m\n'}
+[1.154163] (ros2_kdl_package) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/kdl_robot.cpp.o\x1b[0m\n'}
+[1.155026] (ros2_kdl_package) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/kdl_planner.cpp.o\x1b[0m\n'}
+[1.156557] (ros2_kdl_package) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/kdl_control.cpp.o\x1b[0m\n'}
+[1.157813] (ros2_kdl_package) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node_example.dir/src/ros2_kdl_node_example.cpp.o\x1b[0m\n'}
+[1.201880] (-) TimerEvent: {}
+[1.302188] (-) TimerEvent: {}
+[1.402525] (-) TimerEvent: {}
+[1.502834] (-) TimerEvent: {}
+[1.603265] (-) TimerEvent: {}
+[1.703562] (-) TimerEvent: {}
+[1.803824] (-) TimerEvent: {}
+[1.904105] (-) TimerEvent: {}
+[2.004355] (-) TimerEvent: {}
+[2.104639] (-) TimerEvent: {}
+[2.144094] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KEigen::VectorXd KDLController::idCntr(KDL::Frame&, KDL::Twist&, KDL::Twist&, double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.144242] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:33:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[2.144276] (ros2_kdl_package) StderrLine: {'line': b'   33 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.144298] (ros2_kdl_package) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.144322] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:26:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_desPos\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.144344] (ros2_kdl_package) StderrLine: {'line': b'   26 | Eigen::VectorXd KDLController::idCntr(\x1b[01;35m\x1b[KKDL::Frame &_desPos\x1b[m\x1b[K,\n'}
+[2.144364] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.144383] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:27:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_desVel\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.144405] (ros2_kdl_package) StderrLine: {'line': b'   27 |                                       \x1b[01;35m\x1b[KKDL::Twist &_desVel\x1b[m\x1b[K,\n'}
+[2.144425] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.144444] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:28:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_desAcc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.144463] (ros2_kdl_package) StderrLine: {'line': b'   28 |                                       \x1b[01;35m\x1b[KKDL::Twist &_desAcc\x1b[m\x1b[K,\n'}
+[2.144482] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.144501] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kpp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.144520] (ros2_kdl_package) StderrLine: {'line': b'   29 |                                       \x1b[01;35m\x1b[Kdouble _Kpp\x1b[m\x1b[K, double _Kpo,\n'}
+[2.144540] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.144558] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kpo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.144577] (ros2_kdl_package) StderrLine: {'line': b'   29 |                                       double _Kpp, \x1b[01;35m\x1b[Kdouble _Kpo\x1b[m\x1b[K,\n'}
+[2.144596] (ros2_kdl_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.144614] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kdp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.144632] (ros2_kdl_package) StderrLine: {'line': b'   30 |                                       \x1b[01;35m\x1b[Kdouble _Kdp\x1b[m\x1b[K, double _Kdo)\n'}
+[2.144650] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.144669] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kdo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.144689] (ros2_kdl_package) StderrLine: {'line': b'   30 |                                       double _Kdp, \x1b[01;35m\x1b[Kdouble _Kdo\x1b[m\x1b[K)\n'}
+[2.144707] (ros2_kdl_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.204836] (-) TimerEvent: {}
+[2.305190] (-) TimerEvent: {}
+[2.405513] (-) TimerEvent: {}
+[2.505891] (-) TimerEvent: {}
+[2.551600] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node_example.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.551775] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node_example.cpp:51:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of constant \xe2\x80\x98\x1b[01m\x1b[K0\x1b[m\x1b[K\xe2\x80\x99 with boolean expression is always true [\x1b[01;35m\x1b[K-Wbool-compare\x1b[m\x1b[K]\n'}
+[2.551847] (ros2_kdl_package) StderrLine: {'line': b'   51 |     if(\x1b[01;35m\x1b[Kkinematics_status>=0\x1b[m\x1b[K){\n'}
+[2.551901] (ros2_kdl_package) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.605995] (-) TimerEvent: {}
+[2.706273] (-) TimerEvent: {}
+[2.806531] (-) TimerEvent: {}
+[2.810570] (ros2_kdl_package) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ros2_kdl_node_example\x1b[0m\n'}
+[2.884204] (ros2_kdl_package) StdoutLine: {'line': b'[ 85%] Built target ros2_kdl_node_example\n'}
+[2.906706] (-) TimerEvent: {}
+[3.007095] (-) TimerEvent: {}
+[3.107359] (-) TimerEvent: {}
+[3.207620] (-) TimerEvent: {}
+[3.307901] (-) TimerEvent: {}
+[3.408175] (-) TimerEvent: {}
+[3.508444] (-) TimerEvent: {}
+[3.608744] (-) TimerEvent: {}
+[3.709019] (-) TimerEvent: {}
+[3.809315] (-) TimerEvent: {}
+[3.909610] (-) TimerEvent: {}
+[4.009969] (-) TimerEvent: {}
+[4.110238] (-) TimerEvent: {}
+[4.210551] (-) TimerEvent: {}
+[4.310972] (-) TimerEvent: {}
+[4.411288] (-) TimerEvent: {}
+[4.511614] (-) TimerEvent: {}
+[4.611919] (-) TimerEvent: {}
+[4.712255] (-) TimerEvent: {}
+[4.812530] (-) TimerEvent: {}
+[4.912859] (-) TimerEvent: {}
+[5.013194] (-) TimerEvent: {}
+[5.113528] (-) TimerEvent: {}
+[5.213805] (-) TimerEvent: {}
+[5.314090] (-) TimerEvent: {}
+[5.414411] (-) TimerEvent: {}
+[5.514767] (-) TimerEvent: {}
+[5.615099] (-) TimerEvent: {}
+[5.715354] (-) TimerEvent: {}
+[5.815602] (-) TimerEvent: {}
+[5.915945] (-) TimerEvent: {}
+[6.016170] (-) TimerEvent: {}
+[6.116565] (-) TimerEvent: {}
+[6.216782] (-) TimerEvent: {}
+[6.317010] (-) TimerEvent: {}
+[6.417276] (-) TimerEvent: {}
+[6.517578] (-) TimerEvent: {}
+[6.617977] (-) TimerEvent: {}
+[6.718194] (-) TimerEvent: {}
+[6.818430] (-) TimerEvent: {}
+[6.918753] (-) TimerEvent: {}
+[7.018970] (-) TimerEvent: {}
+[7.119176] (-) TimerEvent: {}
+[7.219437] (-) TimerEvent: {}
+[7.244898] (ros2_kdl_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76: CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Interrupt\n'}
+[7.245079] (ros2_kdl_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ros2_kdl_node.dir/all] Interrupt\n'}
+[7.245218] (ros2_kdl_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[7.268096] (ros2_kdl_package) CommandEnded: {'returncode': -2}
+[7.272928] (ros2_kdl_package) JobEnded: {'identifier': 'ros2_kdl_package', 'rc': 'SIGINT'}
+[7.283316] (-) EventReactorShutdown: {}

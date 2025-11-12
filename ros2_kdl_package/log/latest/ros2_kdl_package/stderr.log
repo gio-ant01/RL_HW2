@@ -1,0 +1,32 @@
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:[m[K In member function ‘[01m[KEigen::VectorXd KDLController::idCntr(KDL::Frame&, KDL::Twist&, KDL::Twist&, double, double, double, double)[m[K’:
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:33:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   33 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:26:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_desPos[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | Eigen::VectorXd KDLController::idCntr([01;35m[KKDL::Frame &_desPos[m[K,
+      |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:27:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_desVel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   27 |                                       [01;35m[KKDL::Twist &_desVel[m[K,
+      |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:28:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_desAcc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   28 |                                       [01;35m[KKDL::Twist &_desAcc[m[K,
+      |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kpp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   29 |                                       [01;35m[Kdouble _Kpp[m[K, double _Kpo,
+      |                                       [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kpo[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   29 |                                       double _Kpp, [01;35m[Kdouble _Kpo[m[K,
+      |                                                    [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kdp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 |                                       [01;35m[Kdouble _Kdp[m[K, double _Kdo)
+      |                                       [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kdo[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 |                                       double _Kdp, [01;35m[Kdouble _Kdo[m[K)
+      |                                                    [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/user/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node_example.cpp:51:25:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K0[m[K’ with boolean expression is always true [[01;35m[K-Wbool-compare[m[K]
+   51 |     if([01;35m[Kkinematics_status>=0[m[K){
+      |        [01;35m[K~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76: CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ros2_kdl_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
