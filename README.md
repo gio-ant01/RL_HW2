@@ -114,6 +114,7 @@ ros2 launch ros2_kdl_package kdl_launch.py ctrl:=velocity_ctrl_null
 ```
 
 After trajectory completion, press `Ctrl+C` to save the CSV file.
+(Our CSV files are in the following folder: /ros2_kdl_package/scripts).
 
 ### Analyze Data in MATLAB
 
